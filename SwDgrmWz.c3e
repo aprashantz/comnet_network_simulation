@@ -1,0 +1,4 @@
+BEGIN ERROR one
+  MESSAGE = |Wizard: Displaying Software Diagram graphically|
+END
+

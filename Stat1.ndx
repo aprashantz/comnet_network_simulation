@@ -1,0 +1,32 @@
+ |CONFIG:Edinburgh.Edinburgh Link:BusyLevelX:1|      199
+ |CONFIG:Edinburgh.Edinburgh Link:tokendelayX:1|      391
+ |Msg:Edinburgh.ATM Server:ATM Server MSG RSP::ECHO:transcmdtokendly:1|      577
+ |CONFIG:Itahari.Itahari Link:BusyLevelX:1|      804
+ |CONFIG:Itahari.Itahari Link:BusyLevelY:1|      988
+ |CONFIG:Itahari.Itahari Link:tokendelayX:1|     1172
+ |CONFIG:Itahari.Itahari Link:tokendelayY:1|     1350
+ |Msg:Itahari.Itahari ATM 1 - 30:Itahari ATM MSG REQ:Edinburgh.ATM Server:transcmdtokendly:1|     1528
+ |Msg:Itahari.Itahari ATM Teller:Itahari Teller MSG REQ:Edinburgh.ATM Server:transcmdtokendly:1|     1799
+ |CONFIG:Butwal.Butwal Link:BusyLevelX:1|     2076
+ |CONFIG:Butwal.Butwal Link:BusyLevelY:1|     2256
+ |CONFIG:Butwal.Butwal Link:tokendelayX:1|     2436
+ |CONFIG:Butwal.Butwal Link:tokendelayY:1|     2610
+ |Msg:Butwal.Butwal ATM 1 - 30:Butwal ATM MSG REQ:Edinburgh.ATM Server:transcmdtokendly:1|     2784
+ |Msg:Butwal.Butwal ATM Teller:Butwal Teller MSG REQ:Edinburgh.ATM Server:transcmdtokendly:1|     3049
+ |CONFIG:WAN Cloud.Itahari Access Link:BusyLevelX:1|     3320
+ |CONFIG:WAN Cloud.Itahari Access Link:BusyLevelY:1|     3522
+ |CONFIG:WAN Cloud.Itahari Access Link:OutBufferLevel:1|     3724
+ |CONFIG:WAN Cloud.Butwal Access Link:BusyLevelX:1|     3939
+ |CONFIG:WAN Cloud.Butwal Access Link:BusyLevelY:1|     4139
+ |CONFIG:WAN Cloud.Butwal Access Link:OutBufferLevel:1|     4339
+ |CONFIG:WAN Cloud.Edinburgh Access Link:BusyLevelX:1|     4552
+ |CONFIG:WAN Cloud.Edinburgh Access Link:BusyLevelY:1|     4758
+ |CONFIG:WAN Cloud.Edinburgh Access Link:OutBufferLevel:1|     4964
+ |CLDVC:WAN Cloud:Itahari - Edinburgh:FrmDelay:1|     5183
+ |CLDVC:WAN Cloud:Itahari - Edinburgh:Burst:1|     5374
+ |CLDVC:WAN Cloud:Edinburgh - Itahari:FrmDelay:1|     5562
+ |CLDVC:WAN Cloud:Edinburgh - Itahari:Burst:1|     5753
+ |CLDVC:WAN Cloud:Butwal - Edinburgh:FrmDelay:1|     5941
+ |CLDVC:WAN Cloud:Butwal - Edinburgh:Burst:1|     6130
+ |CLDVC:WAN Cloud:Edinburgh - Butwal:FrmDelay:1|     6316
+ |CLDVC:WAN Cloud:Edinburgh - Butwal:Burst:1|     6505
